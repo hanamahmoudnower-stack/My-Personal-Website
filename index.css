@@ -1,0 +1,74 @@
+/*Element Selector*/
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 20px;
+        }
+
+        /* ID Selector */
+        #main {
+            background-color: white;
+            padding: 20px;
+        }
+
+        /* Class Selector */
+        .important {
+            color: blue;
+        }
+
+        /* Element.Class Selector */
+        p.important {
+            font-weight: bold;
+        }
+
+        /* Descendant Selector */
+        div strong {
+            color: red;
+        }
+
+        /* Grouping Selector */
+        h2, h3 {
+            color: darkgreen;
+        }
+
+        /* Combined Selector */
+        #main li.important {
+            background-color: lightyellow;
+        }
+
+        /* Link Styling */
+        a {
+            color: purple;
+        }
+
+        /* Table Styling */
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+
+        th {
+            background-color: lightblue;
+        }
+
+        /* Form Styling */
+        input, textarea {
+            display: block;
+            margin-bottom: 10px;
+            padding: 8px;
+            width: 250px;
+        }
+
+        /* Box Model Example */
+        .box {
+            background-color: lightpink;
+            padding: 15px;
+            border: 2px solid black;
+            margin: 10px 0;
+        }
